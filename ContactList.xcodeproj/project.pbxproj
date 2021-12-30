@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D0100B1E277CF29200CE1F82 /* ContactListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0100B1D277CF29200CE1F82 /* ContactListViewController.swift */; };
+		D0100B20277CF2F700CE1F82 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0100B1F277CF2F700CE1F82 /* TabBarViewController.swift */; };
+		D0100B22277CF38E00CE1F82 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0100B21277CF38E00CE1F82 /* ContactViewController.swift */; };
+		D0100B26277CFCEB00CE1F82 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0100B25277CFCEB00CE1F82 /* DetailViewController.swift */; };
 		D05D51BD277C962400D3AB20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05D51BC277C962400D3AB20 /* AppDelegate.swift */; };
 		D05D51BF277C962400D3AB20 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05D51BE277C962400D3AB20 /* SceneDelegate.swift */; };
-		D05D51C1277C962400D3AB20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05D51C0277C962400D3AB20 /* ViewController.swift */; };
 		D05D51C4277C962400D3AB20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D05D51C2277C962400D3AB20 /* Main.storyboard */; };
 		D05D51C6277C962500D3AB20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D05D51C5277C962500D3AB20 /* Assets.xcassets */; };
 		D05D51C9277C962500D3AB20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D05D51C7277C962500D3AB20 /* LaunchScreen.storyboard */; };
+		D05D51D1277C993C00D3AB20 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05D51D0277C993C00D3AB20 /* Person.swift */; };
+		D05D51D3277C998A00D3AB20 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05D51D2277C998A00D3AB20 /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D0100B1D277CF29200CE1F82 /* ContactListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListViewController.swift; sourceTree = "<group>"; };
+		D0100B1F277CF2F700CE1F82 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		D0100B21277CF38E00CE1F82 /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		D0100B25277CFCEB00CE1F82 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		D05D51B9277C962400D3AB20 /* ContactList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D05D51BC277C962400D3AB20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D05D51BE277C962400D3AB20 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D05D51C0277C962400D3AB20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D05D51C3277C962400D3AB20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D05D51C5277C962500D3AB20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D05D51C8277C962500D3AB20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D05D51CA277C962500D3AB20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D05D51D0277C993C00D3AB20 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		D05D51D2277C998A00D3AB20 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +47,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D0100B19277CEFB200CE1F82 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D05D51D0277C993C00D3AB20 /* Person.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D0100B1A277CEFC600CE1F82 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				D05D51C2277C962400D3AB20 /* Main.storyboard */,
+				D05D51C7277C962500D3AB20 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		D0100B1B277CEFDC00CE1F82 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D05D51D2277C998A00D3AB20 /* DataManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D0100B1C277CF00500CE1F82 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				D05D51C5277C962500D3AB20 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		D0100B23277CF3CF00CE1F82 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D0100B1F277CF2F700CE1F82 /* TabBarViewController.swift */,
+				D0100B1D277CF29200CE1F82 /* ContactListViewController.swift */,
+				D0100B21277CF38E00CE1F82 /* ContactViewController.swift */,
+				D0100B25277CFCEB00CE1F82 /* DetailViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D0100B24277CF41B00CE1F82 /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				D05D51BC277C962400D3AB20 /* AppDelegate.swift */,
+				D05D51BE277C962400D3AB20 /* SceneDelegate.swift */,
+			);
+			path = Supports;
+			sourceTree = "<group>";
+		};
 		D05D51B0277C962400D3AB20 = {
 			isa = PBXGroup;
 			children = (
@@ -56,12 +119,12 @@
 		D05D51BB277C962400D3AB20 /* ContactList */ = {
 			isa = PBXGroup;
 			children = (
-				D05D51BC277C962400D3AB20 /* AppDelegate.swift */,
-				D05D51BE277C962400D3AB20 /* SceneDelegate.swift */,
-				D05D51C0277C962400D3AB20 /* ViewController.swift */,
-				D05D51C2277C962400D3AB20 /* Main.storyboard */,
-				D05D51C5277C962500D3AB20 /* Assets.xcassets */,
-				D05D51C7277C962500D3AB20 /* LaunchScreen.storyboard */,
+				D0100B23277CF3CF00CE1F82 /* ViewControllers */,
+				D0100B24277CF41B00CE1F82 /* Supports */,
+				D0100B1A277CEFC600CE1F82 /* Storyboards */,
+				D0100B19277CEFB200CE1F82 /* Models */,
+				D0100B1B277CEFDC00CE1F82 /* Services */,
+				D0100B1C277CF00500CE1F82 /* Assets */,
 				D05D51CA277C962500D3AB20 /* Info.plist */,
 			);
 			path = ContactList;
@@ -138,9 +201,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D05D51C1277C962400D3AB20 /* ViewController.swift in Sources */,
+				D05D51D3277C998A00D3AB20 /* DataManager.swift in Sources */,
 				D05D51BD277C962400D3AB20 /* AppDelegate.swift in Sources */,
+				D05D51D1277C993C00D3AB20 /* Person.swift in Sources */,
+				D0100B20277CF2F700CE1F82 /* TabBarViewController.swift in Sources */,
 				D05D51BF277C962400D3AB20 /* SceneDelegate.swift in Sources */,
+				D0100B22277CF38E00CE1F82 /* ContactViewController.swift in Sources */,
+				D0100B1E277CF29200CE1F82 /* ContactListViewController.swift in Sources */,
+				D0100B26277CFCEB00CE1F82 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,7 +374,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -334,7 +402,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
